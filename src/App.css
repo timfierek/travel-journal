@@ -27,3 +27,74 @@ nav h1 {
 
 /*******************************************************/
 
+.mainContent {
+  padding: 6% 6% 2% 6%;
+}
+
+.trip {
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 2.5% 0 2.5% 0;
+  gap: 2.5%;
+  border-bottom: 2px solid #b8b7b7;
+  border-radius: 2px;
+}
+
+.trip-picture {
+  object-fit:cover;
+  border-radius: 5px;
+  height:200px;
+  width: 150px;
+}
+
+.trip-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.location img {
+  object-fit: contain;
+  width:10px;
+}
+
+.location h4 {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.17em;
+  margin-left: 4px;
+}
+
+.location a {
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #918E9B;
+}
+
+.title {
+  margin-top: 4px;
+  font-weight: 700;
+  font-size: 25px;
+  color: #2B283A;
+}
+
+.dates {
+  margin-top: 14px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #2B283A;
+}
+
+.description {
+  margin-top: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2B283A;
+}
