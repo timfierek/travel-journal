@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <nav>
             <img src="./globe-icon.png" alt="" />
-            <h1 className="navbar-text">my travel journal.</h1>
+            <h1>my travel journal.</h1>
         </nav>
     );
 }
